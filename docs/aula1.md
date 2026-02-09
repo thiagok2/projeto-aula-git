@@ -6,6 +6,7 @@ O Git é um sistema de controle de versão distribuído, gratuito e de código a
 
 ## Criando um projeto
 1. Como iniciar um projeto no git:
+
 ```sh
 git init --initial-branch=main
 ```
