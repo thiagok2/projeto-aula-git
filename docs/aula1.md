@@ -33,3 +33,10 @@ git add *
 3. Uma vez que foram adicionado, estão aptos a serem incluídos em um commit.
 
 *Definição de commit*
+Um git commit é um instantâneo (snapshot) das alterações preparadas (na staging area) do seu projeto, funcionando como um registro histórico seguro e permanente. Ele salva o estado atual dos arquivos, com metadados como autor, data e mensagem, permitindo rastrear, reverter ou compartilhar modificações no repositório.
+
+Comando para commitar:
+```sh
+git commit -m 'mensagem do commmit'
+```
+
