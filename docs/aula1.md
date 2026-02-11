@@ -45,6 +45,8 @@ git commit -m 'mensagem do commmit'
 
 ## Possíveis problemas
 
+### Problema de não haver usuário configurado
+
 Talvez haja problemas por não haver usuário configurado local ou globalmente no git, e o comando commit apresente um erro.
 Para verificar se existe usuário e email local, execute o comando:
 
