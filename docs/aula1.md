@@ -5,7 +5,8 @@
 O Git é um sistema de controle de versão distribuído, gratuito e de código aberto, utilizado para monitorar alterações no código-fonte durante o desenvolvimento de software. Ele permite gerenciar o histórico de arquivos, reverter mudanças, trabalhar em equipe simultaneamente sem sobrescrever o trabalho alheio e criar ramificações (branches) para desenvolver funcionalidades com segurança.
 
 ## Criando um projeto
-1. Como iniciar um projeto no git:
+1. Criar pasta e abrir ela no VSCode. 
+Comando para iniciar um projeto no git:
 
 ```sh
 git init --initial-branch=main
@@ -17,14 +18,14 @@ git init --initial-branch=main
 2. E o que é branch?
 São ramos de trabalhos. Linhas, versões para serem implementadas/desenvolvidas.
 
-## Commitando
+## Trabalhando com novos arquivos
 
 1. Crie arquivos, por exemplo:
   a. criar arquivo index.js
-  b. criar pasta docs e dentro da pasta criar um arquivo aula1.md
+  b. criar pasta docs e dentro da pasta criar um arquivo aula1.md, aula2.md
 
-2. Dados que os arquivos foram criados mas ainda não identificados como não rastreáveis para o GIT,
-vamos adicionar eles ao rastreio com o comando.
+2. Dado que os arquivos foram apenas criados mas ainda não foram rastreados pelo git. Logo, são identificados como não rastreáveis(untracked).
+Vamos adicionar eles ao rastreio com o comando.
 
 ```sh
 git add *
