@@ -14,3 +14,17 @@ Dando tudo certo, o seu repositório na nuvem(github) vai ter seus arquivos atua
 ## E dando errado
 ### Problema 1 - Repositórios com trabalhos desalinhados
 Há trabalhos/arquivos/modificações no repositório remoto e não estão localmente.
+
+Para trazer o trabalho(arquivos, mudanças) do remoto, execute:
+```sh
+git pull origin main
+```
+
+Ainda assim, podem haver erros **FATAIS**. Que podem ser devido a um desalinhamento/divergência das branchs, histórias não relacionadas
+
+ Como resolver:
+
+ ```sh
+ git config pull.rebase true
+ ```
+
