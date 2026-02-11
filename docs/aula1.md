@@ -31,7 +31,9 @@ Vamos adicionar eles ao rastreio com o comando.
 git add *
 ```
 
-3. Uma vez que foram adicionado, estão aptos a serem incluídos em um commit.
+3. Finalizando trabalho(parcialmente) local -- **commit**
+
+Uma vez que foram adicionado, estão aptos a serem incluídos em um **commit**.
 
 *Definição de commit*
 Um git commit é um instantâneo (snapshot) das alterações preparadas (na staging area) do seu projeto, funcionando como um registro histórico seguro e permanente. Ele salva o estado atual dos arquivos, com metadados como autor, data e mensagem, permitindo rastrear, reverter ou compartilhar modificações no repositório.
@@ -41,3 +43,24 @@ Comando para commitar:
 git commit -m 'mensagem do commmit'
 ```
 
+## Possíveis problemas
+
+Talvez haja problemas por não haver usuário configurado local ou globalmente no git, e o comando commit apresente um erro.
+Para verificar se existe usuário e email local, execute o comando:
+
+```sh
+git config user.name
+git config user.email
+```
+Vamos configurar localmente usuário e email. Use o email do seu usuário no github.
+
+```sh
+git config --local user.name "Seu nome"
+git config --local user.email "SeuEmailDoGIT@algumacoisa.com"
+```
+
+Uma vez que você rodou os comandos acima. Rode novamente:
+```sh
+git config user.name
+git config user.email
+```
